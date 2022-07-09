@@ -74,7 +74,9 @@ If no recognized module system is present, access bundle contents via the global
 ```html
 <script type="text/javascript">
 (function () {
+(function () {
     window.mode;
+})();
 })();
 </script>
 ```
@@ -133,6 +135,7 @@ v = mode( -1.0 );
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-geometric-mode@umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
+(function () {
 
 var v;
 var i;
@@ -144,6 +147,7 @@ for ( i = 0; i < 10; i++ ) {
     console.log( 'p: %d, mode(X;p): %d', p.toFixed( 4 ), v.toFixed( 4 ) );
 }
 
+})();
 })();
 </script>
 </body>
