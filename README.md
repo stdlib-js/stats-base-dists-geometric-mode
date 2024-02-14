@@ -67,7 +67,7 @@ The [mode][mode] for a [geometric][geometric-distribution] random variable with 
 ## Usage
 
 ```javascript
-import mode from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-geometric-mode@esm/index.mjs';
+import mode from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-geometric-mode@v0.2.0-esm/index.mjs';
 ```
 
 #### mode( p )
@@ -123,7 +123,7 @@ v = mode( -1.0 );
 
 import randu from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@esm/index.mjs';
 import round from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-round@esm/index.mjs';
-import mode from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-geometric-mode@esm/index.mjs';
+import mode from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-geometric-mode@v0.2.0-esm/index.mjs';
 
 var v;
 var i;
